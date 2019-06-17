@@ -11,9 +11,17 @@
 
 > A dark and elegant VS Code theme
 
-## Prerequisites
+![screenshot](screenshot.png)
 
-- vscode ^1.35.0
+## Installation
+
+1.  Install [Visual Studio Code](https://code.visualstudio.com/)
+2.  Launch Visual Studio Code
+3.  Choose **Extensions** from menu
+4.  Search for `Void Theme`
+5.  Click **Install** to install it
+6.  Click **Reload** to reload the Code
+7.  From the menu bar click: Code > Preferences > Color Theme > **Void Theme**
 
 ## Author
 
