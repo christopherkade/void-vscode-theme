@@ -1,0 +1,42 @@
+{
+    "name": "void-theme",
+    "displayName": "Void Theme",
+    "description": "A dark and elegant VS Code theme",
+    "version": "1.0.0",
+    "publisher": "christopherkade",
+    "license": "SEE LICENSE IN LICENSE.md",
+    "engines": {
+        "vscode": "^1.35.0"
+    },
+    "scripts": {
+        "publish": "vsce publish"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/christopherkade/void-vscode-theme"
+    },
+    "galleryBanner": {
+        "color": "#1E2435",
+        "theme": "dark"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "icon": "icon.png",
+    "keywords": [
+        "Theme",
+        "Dark theme",
+        "Void theme",
+        "Void",
+        "Black"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Void",
+                "uiTheme": "vs-dark",
+                "path": "./themes/void-color-theme.json"
+            }
+        ]
+    }
+}
